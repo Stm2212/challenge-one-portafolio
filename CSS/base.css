@@ -1,0 +1,49 @@
+
+:root{
+   --texto-blanco: #f6f6f6;
+   --texto-gris: #464646;
+   --texto-gris-claro: #767676;
+   --texto-blanco-boton: #FFFFFF;
+   --texto-azul-boton: #2A7AE4;
+   --warning-color: rgb(206, 35, 35);
+
+   --bg-gris: #E5E5E5;
+   --bg-azul: #EAF2FD;
+   --bg-blanco: #FFFFFF;
+   --bg-boton-azul: #2A7AE4;
+
+}
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+   background-color: var(--bg-gris);  
+   color: var(--texto-gris);
+   font-family: 'Raleway',  sans-serif;
+   font-size: 16px;
+   font-weight: 500;   
+   line-height: 19px;
+   
+}
+
+.boton {
+   display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 8px 0;
+    box-shadow: 2px 2px 2px rgba(10,10,10, 0.5);
+}
+
+.boton:hover {
+    cursor: pointer;
+}
+
+.boton:active {
+   transform: translate(2px,2px);
+   box-shadow: none;
+}
+

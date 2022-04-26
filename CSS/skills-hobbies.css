@@ -1,0 +1,91 @@
+
+.skills-hobbies{
+   width: auto;
+   height: auto;
+}
+
+.skills-hobbies__titulo{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 22px;
+   line-height: 26px;
+   text-align: center;
+   margin: 1rem 0 2rem;
+}
+
+.skills-hobbies__container{
+   margin: 0;
+   display: grid;
+   
+   grid-template-columns: 48% 48%;
+   row-gap: 2rem;
+   column-gap: 4%;
+   
+   height: auto;
+   width: auto;
+   
+}
+
+/* ----------------- ---------------------- */
+
+.box{
+   background-color: var(--bg-blanco);
+   padding-left: 16px; 
+   padding-bottom: 10px;
+   line-height: 0;
+   
+   height: 34vw;
+   width: 100%;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+
+}
+
+.box__img{
+   width: 30px;
+   height: 35px;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.box__img--html{
+   background-image: url(../img/html5.svg);   
+}
+
+.box__img--css{
+   background-image: url(../img/css.svg);
+}
+
+.box__img--javaScript{
+   background-image: url(../img/js.svg);
+}
+
+.box__img--php{
+   background-image: url(../img/php.svg);
+}
+
+.box__img--nodejs{
+   background-image: url(../img/node.svg);
+}
+
+.box__img--guitar{
+   background-image: url(../img/guitar.svg);
+}
+
+.box__img--photo{
+   background-image: url(../img/foto.svg);
+}
+
+.box__img--comer{
+   background-image: url(../img/comer.svg);
+}
+
+.box__img--music{
+   background-image: url(../img/musica.svg);
+}
+
+.box__img--movies{
+   background-image: url(../img/movies.png);
+}

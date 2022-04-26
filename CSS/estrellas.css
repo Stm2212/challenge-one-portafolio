@@ -1,0 +1,36 @@
+.estrellas{
+   display: inline-block;
+   position: relative;
+   width: 30px;
+
+}
+
+.estrellas__primera{
+   position: absolute;
+   top: 0px;
+   width: 20px;
+   height: 20px;
+}
+
+.estrellas__segundas{
+   left: 16px;
+   position: relative;
+   width: 16px;
+   height: 16px;
+   top: 0px;
+}
+
+.estrella-chica{
+   width: 10px;
+   height: 10px;
+   position: absolute;
+}
+.estrellas__segundas--sup{
+   top: -5px;
+   left: 0px;
+}
+
+.estrellas__segundas--inf{
+   top: 15px;
+   left: 0px;
+}

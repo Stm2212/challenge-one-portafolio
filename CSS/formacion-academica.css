@@ -1,0 +1,64 @@
+
+.formacion-academica__titulo{
+   font-family: 'Raleway',  sans-serif;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 26px;
+   text-align: center;
+   margin: 1rem 0;
+}
+
+.formacion-academica__container{
+   
+   margin: 0;
+   display: grid;
+   
+   grid-template-columns: 100%;
+   row-gap: 0rem;
+   column-gap: 0%;
+   
+   width: 100%;
+   height: auto;
+   
+}
+
+/* --------------------------------- ------------------------------------- */
+
+
+.big-box{
+   width: auto;
+   height: auto;
+   margin: 5vw 5vw 0;
+}
+
+.big-box__titulo{
+   color: var(--texto-gris);
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 19px;
+   margin: 1vw 0;
+}
+
+.big-box__descripcion{
+   color: var(--texto-gris);
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+}
+
+.big-box__img-container{
+   background-color: var(--bg-blanco);
+   width: auto;
+   height: 30vw;
+   line-height: 30vw;
+   text-align: center;
+}
+
+.big-box__img{
+   width: 50vw;
+   height: auto;
+   vertical-align: middle;
+}
+
+

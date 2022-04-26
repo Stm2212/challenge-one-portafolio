@@ -1,0 +1,179 @@
+
+@media screen and (max-width: 420px) {
+   .menu__link{
+      font-size: 0.8rem;
+   }
+}
+
+
+@media screen and (min-width: 768px) {
+   
+.seccion{
+   padding: 2vw 6vw;
+}
+.seccion--azul{
+   padding-top: 6vw;
+   padding-bottom: 2rem; 
+}
+
+.encabezado{
+   flex-direction: row;
+   margin: 2rem 0 1rem;
+}
+
+.encabezado__principal{
+   width: 80%;
+}
+
+.encabezado__imagen{
+   order: 1;
+   width: 20%;
+}
+
+.skills-hobbies{
+   padding-top: 2vw;   
+}
+
+.skills-hobbies__container{
+   grid-template-columns: 30% 30% 30%;
+   row-gap: 2rem;
+   column-gap: 5%;
+}
+
+.box{
+   height: 17vw;
+}
+
+.formacion-academica__container{
+
+   grid-template-columns: 32% 32% 32%;
+   row-gap: 2rem;
+   column-gap: 2%;   
+}
+
+.proyectos-todos__contenedor{
+   margin: 0;
+}
+
+.big-box{
+   margin: 0;
+}
+
+.big-box__img-container{
+   height: 15vw;
+   line-height: 15vw;
+}
+
+.big-box__img{
+   width: 100%;
+}
+
+.contacto {
+   margin: 0;
+}
+
+}
+
+
+@media screen and (min-width: 1024px) {
+   
+   .menu__item--oculto{
+      display: inline-block;
+   }
+
+   .menu__item{
+      padding: 0 0.3rem;
+   }
+
+   .encabezado{
+      align-items: center;
+   }
+
+   .seccion{
+      padding: 2rem 8vw;
+   }   
+   
+   .seccion-contacto{
+      padding-bottom: 6rem;
+   }
+
+   .encabezado__titulo{
+      font-size: 45px;
+      line-height: 55px;
+   }   
+
+   .encabezado__principal{
+      width: 60%;
+   }
+
+   .encabezado__imagen{
+      width: 40%;
+   }
+   
+   .skills-hobbies__container{
+      grid-template-columns: 19% 19% 19% 19% 19% ;
+      row-gap: 2rem;
+      column-gap: 1%;
+   }
+     
+   /* caja de hobbies y skills  */
+   .box{
+      height: 15vw;
+   }
+
+   /* caja de formacion academica  */
+  .big-box__img-container{
+   height: 20vw;
+   line-height: 20vw;
+  }
+
+.proyecto{
+   display: flex;
+   align-items: center;
+} 
+.proyecto__container-imagen{
+   width: 70%;
+}
+
+.proyecto__descripcion {
+   width: 30%;
+   margin-left: 1rem;
+}
+ 
+   /* -------- selecciona los hijos pares del contenedor de proyectos y invierte el orden 
+      de los elementos del proyecto seleccionado poniendo la descripcion antes que la imagen---------*/
+
+.proyecto:nth-child(even) .proyecto__descripcion{
+   order: -1;
+}
+
+.contacto{
+   margin-top: 2rem;
+   display: flex;
+   align-items: stretch;
+}
+
+.contacto__imagen{
+   display: block;
+   /* height: auto; */
+   width: 40%;
+   object-fit: cover;
+   
+ }
+
+ .contacto__texto{
+    /* letter-spacing: -1px; */
+    margin-left: 0.5rem;
+    width: 60%;
+    height: auto;
+ }
+
+ .contacto__titulo {
+    margin-top: 0;
+    font-size: 32px;
+    line-height: 38px;
+ }
+ 
+
+
+}

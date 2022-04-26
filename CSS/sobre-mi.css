@@ -1,0 +1,35 @@
+
+
+.sobre-mi{
+   height: auto;
+   width: auto;
+   /* margin: 0rem 6rem; */
+   
+   
+}
+
+.sobre-mi__titulo{
+   font-weight: bold;
+   font-size: 32px;
+   line-height: 38px;
+}
+
+.sobre-mi__descripcion{
+   
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 19px;
+   margin: 16px 0;
+   text-indent: 7px;
+   width: 100%; 
+}
+
+
+.sobre-mi__firma{
+   height: 52px;
+   width: 140px;
+   background-image: url(../img/firma.png);
+   background-repeat: no-repeat;
+
+}
+

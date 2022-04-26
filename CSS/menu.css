@@ -1,0 +1,48 @@
+
+.menu{
+   width: auto;
+   height: auto;
+   display: flex;
+   justify-content: space-between;   
+   align-items: baseline;
+   margin: 0;
+}
+
+
+.menu__item{
+   display: inline-block;
+   list-style-type: none;   
+   font-size: medium;
+   padding: 0;
+}
+
+.menu__item--oculto{
+   display: none;
+}
+
+.menu__item--primero{
+
+   padding-left: 0;
+}
+
+.menu__item--ultimo{
+   padding-right: 0;
+}
+
+.menu__link{
+   color: var(--texto-gris);
+   font-family: 'Raleway', sans-serif;
+   font-size: 1rem;
+   font-weight: 500;   
+   line-height: 1rem;
+   text-decoration: none;
+   
+}
+
+.menu__link--primero{
+   font-weight: bold;
+}
+
+.menu__link--ultimo{
+   font-weight: 400;
+}
